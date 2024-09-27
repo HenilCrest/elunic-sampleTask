@@ -28,7 +28,6 @@ bash
  3. **Install Angular**:
    - Install Angular CLI:
    - Install Angular CLI globally using npm:
-  bash
   npm install -g @angular/cli@11.0.7
 
    4. **Verify Angular CLI Installation**:
