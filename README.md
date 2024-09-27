@@ -51,9 +51,6 @@ https://screenrec.com/share/nVIqhP7Eve
 
 ## Contributing
 If you would like to contribute to this project, please fork the repository and submit a pull request.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-javascript
 
 
 Feel free to modify this README template to better fit your project's needs! If you have any further questions or need additional assistance, just let me know!
