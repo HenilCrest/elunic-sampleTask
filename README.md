@@ -25,40 +25,31 @@ Install npm:
 npm is included with Node.js, but you can verify the version by running:
 bash
 
+ 3. **Install Angular**:
+   - Install Angular CLI:
+   - Install Angular CLI globally using npm:
+  ```bash
+  npm install -g @angular/cli@11.0.7
 
-npm -v
-This should output 6.11.3.
-Install Angular CLI:
-Install Angular CLI globally using npm:
-bash
+ 4. **Verify Angular CLI Installation:**
+   ```bash
+   ng version
+   This should show Angular CLI version 11.0.7.
 
-
-npm install -g @angular/cli@11.0.7
-Verify Angular CLI Installation:
-bash
-
-
-ng version
-This should show Angular CLI version 11.0.7.
 Getting Started
 To create a new Angular project, run the following command:
-bash
-
-
+```bash
 ng new my-angular-app
 Replace my-angular-app with your desired project name.
 Running the Application
 Navigate to your project directory:
-bash
-
-
+```bash
 cd my-angular-app
 Then, start the development server:
-bash
-
-
+```bash
 ng serve
 Open your browser and go to http://localhost:4200 to see your application in action.
+
 Contributing
 If you would like to contribute to this project, please fork the repository and submit a pull request.
 License
