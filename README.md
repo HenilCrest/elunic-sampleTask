@@ -45,10 +45,11 @@ ng serve
 Open your browser and go to http://localhost:4200 to see your application in action.
 
 
-## LINK OF THE VIDEO
+## Link of the video
 https://screenrec.com/share/nVIqhP7Eve
 
-Contributing
+
+## Contributing
 If you would like to contribute to this project, please fork the repository and submit a pull request.
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
