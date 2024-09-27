@@ -1,0 +1,20 @@
+<div class="registration-result" *ngIf="registrationOutcome">
+    <div *ngIf="registrationOutcome.success; else failureTemplate" class="success-message">
+      <h2>Registration Successful!</h2>
+      <p>Welcome, {{ registrationOutcome.username }}! Your registration was successful.</p>
+    </div>
+    
+    <ng-template #failureTemplate>
+      <h2 class="failure-message">Registration Failed!</h2>
+      <p class="failure-message">Error: {{ registrationOutcome.errorMessage }}</p>
+    </ng-template>
+
+    <button *ngIf="registrationOutcome.success" type="submit" routerLink="/login">
+        Login
+    </button>
+
+    <button *ngIf="!registrationOutcome.success" type="submit" routerLink="/register">
+        Register
+    </button>
+  </div>
+  
