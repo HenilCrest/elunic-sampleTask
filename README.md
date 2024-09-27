@@ -45,7 +45,7 @@ ng serve
 Open your browser and go to http://localhost:4200 to see your application in action.
 
 
-## Link of the video
+## Please refer to the demo video
 https://screenrec.com/share/nVIqhP7Eve
 
 
