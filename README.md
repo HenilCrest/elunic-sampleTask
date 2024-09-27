@@ -31,7 +31,7 @@ bash
   ```bash
   npm install -g @angular/cli@11.0.7
 
- 4. **Verify Angular CLI Installation:**
+   4. **Verify Angular CLI Installation**:
    ```bash
    ng version
    This should show Angular CLI version 11.0.7.
